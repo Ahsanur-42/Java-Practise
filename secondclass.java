@@ -5,6 +5,7 @@ public class secondclass{
 		for(int i=0;i<arg.length;i++)
 		{
 			System.out.println(arg[i]+" ");
+			System.out.println();
 		}
 	}
 }
