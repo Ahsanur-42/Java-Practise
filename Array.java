@@ -23,10 +23,6 @@ public class Array{
         }
         if(i==10)
         System.out.println("Not Found!");
-
-
-
-
     }
     
 }

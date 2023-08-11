@@ -27,7 +27,9 @@ public class MatrixPractice
             for(int i=0;i<3;i++)
             {
                 for(int j=0;j<3;j++)
-                System.out.print(outmat[i][j]+" ");
+                {
+                    System.out.print(outmat[i][j]+" ");
+                }
                 System.out.println(" ");
             }
         }
@@ -41,8 +43,10 @@ public class MatrixPractice
             for(int i=0;i<3;i++)
             {
                 for(int j=0;j<3;j++)
-                System.out.print(outmat[i][j]+" ");
-                System.out.println(" ");
+                {
+                    System.out.print(outmat[i][j]+" ");
+                }
+               System.out.println(" ");
             }
 
         }
@@ -55,7 +59,7 @@ public class MatrixPractice
                  {
                     temp=0;
                     for(int k=0;k<3;k++)
-                         temp+=mat1[i][k]*mat2[k][j];
+                    temp+=mat1[i][k]*mat2[k][j];
                     outmat[i][j]=temp;
                  }
             }
