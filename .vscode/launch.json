@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "MatrixPractice2",
+      "request": "launch",
+      "mainClass": "MatrixPractice2",
+      "projectName": "Java_24643737"
+    },
+    {
+      "type": "java",
       "name": "MatrixPractice",
       "request": "launch",
       "mainClass": "MatrixPractice",
